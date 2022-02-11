@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./styles/style.css" />
+		<script src="./scripts/main.js" type="module" defer></script>
+		<title>border-radius viewer</title>
+	</head>
+	<body>
+		<main>
+			<div class="wrap">
+				<input type="text" data-js="inputTopLeft" class="input-value top-left" placeholder="0" />
+				<input type="text" data-js="inputTopRight" class="input-value top-right" placeholder="0" />
+				<input type="text" data-js="inputBottomLeft" class="input-value bottom-left" placeholder="0" />
+				<input type="text" data-js="inputBottomRight" class="input-value bottom-right" placeholder="0" />
+                <input type="text" data-js="inputAll" class="input-value" placeholder="0">
+				<div class="box" data-js="box"></div>
+			</div>
+			<div class="result-border" data-js="CSSBoxPreview">
+				<p data-js="CSSTextPreview">border-radius: 0px;</p>
+			</div>
+		</main>
+	</body>
+</html>
